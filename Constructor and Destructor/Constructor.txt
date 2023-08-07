@@ -1,0 +1,12 @@
+What is Constructor?
+Constructor is a type of a member function of the class in PHP. Constructors are a critical part of classes as they act as a blueprint to create objects of the class. Unlike other member functions, a constructor does not need to be called. It gets automatically called once you create the object
+
+Style 02 <!-- What is Constructor??
+A constructor allows you to initialize an object's properties upon creation of the object.It gets automatically called once you create the object -->
+
+
+PHP offers three types of constructors:
+
+Default Constructor: Default constructors do not accept an argument. You can pass the values to default constructors dynamically.
+Parameterised Constructor: These constructors accept arguments and can also pass values to the data members.
+Copy Constructor: Copy constructors take addresses of the other objects as arguments.

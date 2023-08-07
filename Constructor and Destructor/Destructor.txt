@@ -1,0 +1,7 @@
+What is Destructor?
+
+Destructor is also a special member function of a class in PHP. The purpose of the destructor is exactly the opposite of the purpose of the constructor. The destructor gets called when you delete an object of the class from the memory. The destructor does not accept any kind of argument and does not return anything.
+
+Step 02=>
+A destructor is called when the object is destructed or the script is stopped or exited.
+A destructor is called when the object is destructed or the script is stopped or exited.
