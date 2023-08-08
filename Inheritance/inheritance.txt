@@ -1,0 +1,9 @@
+PHP - What is Inheritance?
+Inheritance in OOP = When a class derives from another class.
+
+The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
+
+An inherited class is defined by using the extends keyword.
+
+
+One of the most astonishing features of inheritance is code reusability. This reusability also provides you with clean code, and the replication of code gets reduced to almost zero
