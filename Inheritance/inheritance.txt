@@ -7,3 +7,12 @@ An inherited class is defined by using the extends keyword.
 
 
 One of the most astonishing features of inheritance is code reusability. This reusability also provides you with clean code, and the replication of code gets reduced to almost zero
+
+Inheritance in PHP is of 3 types, which you will look at in this article, later on. 
+
+1=>)))Single Inheritance: Single inheritance is the most basic type of inheritance. In single inheritance, there is only one base class and one sub or derived class. The subclass is directly inherited from the base class.
+
+2=>)))Hierarchical Inheritance: As the name suggests, hierarchical inheritance shows a tree-like structure. There are many derived classes that are directly inherited from a base class.
+
+3=>))) Multilevel Inheritance: Multilevel Inheritance is the fourth type of inheritance that can be found in PHP. Multilevel inheritance can also be explained by a family tree. One base class exists and it inherits multiple subclasses. These subclasses (not every subclass necessarily) acts as base class and further inherits subclasses. This is just like a family having descendants over generations. 
+
