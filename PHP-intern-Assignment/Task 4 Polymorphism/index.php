@@ -1,4 +1,4 @@
-// Animal class (parent class)
+<?php
 class Animal {
     protected $name;
 
@@ -11,7 +11,6 @@ class Animal {
     }
 }
 
-// Child classes
 class Dog extends Animal {
     public function makeSound() {
         return "The $this->name barks.";
@@ -30,15 +29,15 @@ class Cow extends Animal {
     }
 }
 
-// Create instances of different animals
 $dog = new Dog("Doggy");
 $cat = new Cat("Kitty");
 $cow = new Cow("MooMoo");
 
-// Store animals in an array
 $animals = [$dog, $cat, $cow];
 
-// Make each animal make a sound
 foreach ($animals as $animal) {
     echo $animal->makeSound() . "\n";
+    echo "<br>";
 }
+
+?>
